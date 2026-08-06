@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rota Verde Paraná - Investor Pitch Deck & Simulator</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <header class="app-header">
+        <div class="logo">
+            <i class="fa-solid fa-leaf text-gradient"></i>
+            <span>Rota Verde <strong>Paraná</strong></span>
+        </div>
+        <nav class="nav-tabs">
+            <button class="nav-tab active" data-tab="presentation">
+                <i class="fa-solid fa-person-chalkboard"></i> Apresentação
+            </button>
+            <button class="nav-tab" data-tab="simulator">
+                <i class="fa-solid fa-calculator"></i> Simulador Financeiro
+            </button>
+            <button class="nav-tab" data-tab="documents">
+                <i class="fa-solid fa-file-contract"></i> Documentos
+            </button>
+        </nav>
+        <div class="header-action">
+            <span class="badge badge-investment">CAPEX: R$ 4,0M</span>
+        </div>
+    </header>
+
+    <main class="app-content">
+        <!-- TAB 1: PRESENTATION SLIDESHOW -->
+        <section id="tab-presentation" class="tab-pane active">
+            <div class="deck-container">
+                <div class="slide-viewport">
+                    <!-- Slide 1: Capa -->
+                    <div class="slide active" data-slide="1">
+                        <div class="slide-layout-center">
+                            <span class="slide-tag">Oportunidade de Venture Capital / Yield Real Estate</span>
+                            <h1 class="slide-main-title text-gradient">ROTA VERDE PARANÁ</h1>
+                            <p class="slide-subtitle-large">A Infraestrutura de Recarga que Conecta Conveniência e Alta Rentabilidade</p>
+                            
+                            <div class="hero-metrics">
+                                <div class="metric-card">
+                                    <div class="metric-val text-gradient">R$ 4,0M</div>
+                                    <div class="metric-lbl">CAPEX TOTAL</div>
+                                </div>
+                                <div class="metric-card">
+                                    <div class="metric-val">80</div>
+                                    <div class="metric-lbl">ELETROPOSTOS RÁPIDOS</div>
+                                </div>
+                                <div class="metric-card">
+                                    <div class="metric-val text-success">66.9%</div>
+                                    <div class="metric-lbl">MARGEM EBITDA</div>
+                                </div>
+                            </div>
+                            
+                            <div class="slide-partnership-stamp-large">
+                                <i class="fa-solid fa-handshake"></i> Parceria de Exclusividade com Redes de Farmácias 24h
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2: O Problema / Oportunidade -->
+                    <div class="slide" data-slide="2">
+                        <div class="slide-layout-grid-2">
+                            <div class="slide-col-left">
+                                <span class="slide-tag">O Problema e a Oportunidade</span>
+                                <h2 class="slide-title">A Oportunidade do Gargalo</h2>
+                                <p class="slide-lead-text">A frota de Veículos Elétricos (VEs) está explodindo, mas a infraestrutura de recarga rápida e segura no Paraná ficou para trás.</p>
+                                
+                                <div class="bullet-list-large">
+                                    <div class="bullet-item-large">
+                                        <div class="bullet-bullet"><i class="fa-solid fa-arrow-trend-up"></i></div>
+                                        <div><strong>Frota Crescendo +90%</strong> ao ano. O Paraná já é o 3º maior polo de VEs do país.</div>
+                                    </div>
+                                    <div class="bullet-item-large">
+                                        <div class="bullet-bullet"><i class="fa-solid fa-circle-xmark"></i></div>
+                                        <div><strong>Gargalo de Recarga Rápida (DC)</strong> urbana e em rodovias, gerando insegurança no usuário.</div>
+                                    </div>
+                                    <div class="bullet-item-large">
+                                        <div class="bullet-bullet"><i class="fa-solid fa-location-dot"></i></div>
+                                        <div><strong>Corrida pelo "Real Estate"</strong> comercial: quem garantir os melhores pontos hoje controlará o mercado.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-col-right">
+                                <div class="visual-card-large bg-dark-glass">
+                                    <div class="massive-stat-container">
+                                        <div class="massive-number text-gradient">+90%</div>
+                                        <div class="massive-label">Crescimento Anual da Frota de VEs no Paraná</div>
+                                    </div>
+                                    <div class="chart-simple-compare">
+                                        <div class="compare-bar-label">VEs Ativos</div>
+                                        <div class="compare-bar-track"><div class="compare-bar-fill green" style="width: 85%;"></div></div>
+                                        <div class="compare-bar-label">Eletropostos Rápidos</div>
+                                        <div class="compare-bar-track"><div class="compare-bar-fill red" style="width: 15%;"></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3: A Solução -->
+                    <div class="slide" data-slide="3">
+                        <div class="slide-layout-grid-2">
+                            <div class="slide-col-left">
+                                <span class="slide-tag">A Solução</span>
+                                <h2 class="slide-title">Rede Rota Verde</h2>
+                                <p class="slide-lead-text">Uma rede integrada e padronizada de recarga rápida DC, gerando valor imediato ao investidor e ao motorista.</p>
+                                
+                                <div class="bullet-list-large">
+                                    <div class="bullet-item-large">
+                                        <div class="bullet-bullet"><i class="fa-solid fa-bolt"></i></div>
+                                        <div><strong>Carregadores Rápidos de 40 kW DC:</strong> O ponto ideal entre velocidade para o motorista e baixo CAPEX de conexão elétrica.</div>
+                                    </div>
+                                    <div class="bullet-item-large">
+                                        <div class="bullet-bullet"><i class="fa-solid fa-mobile-button"></i></div>
+                                        <div><strong>Aplicativo Próprio Integrado:</strong> Reserva de vaga, pagamento via Pix e cartão, sem complicação.</div>
+                                    </div>
+                                    <div class="bullet-item-large">
+                                        <div class="bullet-bullet"><i class="fa-solid fa-globe"></i></div>
+                                        <div><strong>80 Pontos Conectados:</strong> Operação monitorada via nuvem 24/7 com suporte inteligente.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-col-right">
+                                <div class="image-wrapper">
+                                    <img src="assets/charger_details.jpg" alt="Carregador Rápido de 40kW" class="slide-image">
+                                    <div class="image-overlay-badge"><i class="fa-solid fa-bolt"></i> 40 kW DC Fast Charger</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4: A Tese Imobiliária -->
+                    <div class="slide" data-slide="4">
+                        <div class="slide-layout-grid-2">
+                            <div class="slide-col-left">
+                                <span class="slide-tag">Diferencial Competitivo</span>
+                                <h2 class="slide-title">Tese Imobiliária: Por que Farmácias?</h2>
+                                <p class="slide-lead-text">Parceria ganha-ganha para obter as melhores esquinas comerciais com custo de aquisição zero.</p>
+                                
+                                <div class="bullet-list-large">
+                                    <div class="bullet-item-large">
+                                        <div class="bullet-bullet"><i class="fa-solid fa-hourglass"></i></div>
+                                        <div><strong>Tempo de Parada Ideal:</strong> 30 a 40 minutos de recarga coincidem perfeitamente com a visita e compras rápidas.</div>
+                                    </div>
+                                    <div class="bullet-item-large">
+                                        <div class="bullet-bullet"><i class="fa-solid fa-shield"></i></div>
+                                        <div><strong>Segurança e Visibilidade 24/7:</strong> Estacionamentos iluminados, câmeras e comodidade urbana.</div>
+                                    </div>
+                                    <div class="bullet-item-large">
+                                        <div class="bullet-bullet"><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+                                        <div><strong>Benefício Mútuo:</strong> Trazemos clientes de alto padrão para a farmácia; e ganhamos pontos comerciais estratégicos sem aluguel.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-col-right">
+                                <div class="image-wrapper">
+                                    <img src="assets/pharmacy_charger.jpg" alt="Eletroposto em Farmácia" class="slide-image">
+                                    <div class="image-overlay-badge"><i class="fa-solid fa-store"></i> Esquinas Premium 24/7</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 5: Unit Economics -->
+                    <div class="slide" data-slide="5">
+                        <div class="slide-layout-grid-2">
+                            <div class="slide-col-left">
+                                <span class="slide-tag">Margens e Lucratividade</span>
+                                <h2 class="slide-title">Unit Economics Excepcional</h2>
+                                <p class="slide-lead-text">O spread entre o custo de compra de energia e o preço de venda de recarga rápida garante um retorno operacional imbatível.</p>
+                                
+                                <div class="compact-economics">
+                                    <div class="econ-box-grid">
+                                        <div class="econ-box">
+                                            <span class="box-lbl">Preço de Venda</span>
+                                            <strong class="box-val text-success">R$ 1,99 <small>/ kWh</small></strong>
+                                        </div>
+                                        <div class="econ-box">
+                                            <span class="box-lbl">Custo de Energia (COGS)</span>
+                                            <strong class="box-val text-danger">R$ 0,42 <small>/ kWh</small></strong>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="econ-box highlight-box">
+                                        <div class="highlight-flex">
+                                            <div>
+                                                <span class="box-lbl">Margem EBITDA Líquida (após 12% OPEX)</span>
+                                                <strong class="box-val-giant text-gradient">66.9%</strong>
+                                            </div>
+                                            <div class="giant-net-val">
+                                                R$ 1,33 <small>/ kWh Líquido</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-col-right">
+                                <div class="visual-card-large bg-dark-glass text-center flex-column justify-center" style="height: 100%;">
+                                    <span class="stat-number-giant text-success">78.9%</span>
+                                    <span class="stat-lbl-large">Margem Bruta Inicial (Spread)</span>
+                                    <div class="divider" style="margin: 1.5rem 0;"></div>
+                                    <span class="stat-number-giant text-gradient">R$ 1,33</span>
+                                    <span class="stat-lbl-large">Retorno EBITDA Livre por kWh</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 6: CAPEX -->
+                    <div class="slide" data-slide="6">
+                        <div class="slide-layout-grid-2">
+                            <div class="slide-col-left">
+                                <span class="slide-tag">Alocação de Recursos</span>
+                                <h2 class="slide-title">Orçamento de CAPEX</h2>
+                                <p class="slide-lead-text">O aporte de R$ 4,0 milhões é integralmente investido em ativos tangíveis de alta durabilidade e padronização física.</p>
+                                
+                                <div class="capex-metric-row">
+                                    <div class="capex-sub-card">
+                                        <span class="capex-pct">74%</span>
+                                        <strong>R$ 37.000</strong>
+                                        <small>Equipamento (Carregador 40kW)</small>
+                                    </div>
+                                    <div class="capex-sub-card">
+                                        <span class="capex-pct">24%</span>
+                                        <strong>R$ 12.000</strong>
+                                        <small>Infraestrutura e Civil</small>
+                                    </div>
+                                    <div class="capex-sub-card">
+                                        <span class="capex-pct">2%</span>
+                                        <strong>R$ 1.000</strong>
+                                        <small>Projeto e Homologação</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-col-right">
+                                <div class="capex-total-billboard">
+                                    <span class="billboard-lbl">Investimento Total (80 Pontos)</span>
+                                    <strong class="billboard-val text-gradient">R$ 4.000.000</strong>
+                                    <div class="divider" style="margin: 1rem 0;"></div>
+                                    <span class="billboard-lbl">Custo por Eletroposto Pronto</span>
+                                    <strong class="billboard-subval">R$ 50.000</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 7: Retorno e Projeções -->
+                    <div class="slide" data-slide="7">
+                        <div class="slide-layout-center">
+                            <span class="slide-tag">Projeções Financeiras</span>
+                            <h2 class="slide-title">Cenários de Retorno Financeiro</h2>
+                            <p class="slide-lead-text text-center">Alta previsibilidade: o payback é acelerado à medida que a taxa de uso diário dos pontos avança.</p>
+                            
+                            <div class="scenario-table-container">
+                                <table class="scenario-table-large">
+                                    <thead>
+                                        <tr>
+                                            <th>Uso Diário por Eletroposto</th>
+                                            <th class="text-center">Conservador (1.5h)</th>
+                                            <th class="text-center highlight-col">Cenário Base (3.0h)</th>
+                                            <th class="text-center">Otimista (4.5h)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Faturamento Anual (Rede)</strong></td>
+                                            <td class="text-center">R$ 3,48 Milhões</td>
+                                            <td class="text-center highlight-col">R$ 6,97 Milhões</td>
+                                            <td class="text-center">R$ 10,45 Milhões</td>
+                                        </tr>
+                                        <tr class="row-highlight-large">
+                                            <td><strong>EBITDA Anual (Estabilizado)</strong></td>
+                                            <td class="text-center text-success">R$ 2,33 Milhões</td>
+                                            <td class="text-center highlight-col text-success"><strong>R$ 4,66 Milhões</strong></td>
+                                            <td class="text-center text-success">R$ 7,00 Milhões</td>
+                                        </tr>
+                                        <tr class="row-payback-large">
+                                            <td><strong>Payback Simples</strong></td>
+                                            <td class="text-center">20 meses</td>
+                                            <td class="text-center highlight-col font-bold">10 meses</td>
+                                            <td class="text-center">7 meses</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 8: Call to Action -->
+                    <div class="slide" data-slide="8">
+                        <div class="slide-layout-center">
+                            <span class="slide-tag">Captação Aberta</span>
+                            <h2 class="slide-title text-gradient">Invista na Rota Verde Paraná</h2>
+                            <p class="slide-lead-text text-center">Pontos de recarga mapeados, pré-acordo imobiliário em negociação de MoU e alta geração de caixa. Invista em infraestrutura produtiva.</p>
+                            
+                            <div class="cta-steps-horizontal">
+                                <div class="cta-step-box">
+                                    <div class="step-icon-circle"><i class="fa-solid fa-handshake-angle"></i></div>
+                                    <h4>Adesão SPE</h4>
+                                    <p>Q3 2026</p>
+                                </div>
+                                <div class="cta-step-box">
+                                    <div class="step-icon-circle"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                                    <h4>Obras e Civil</h4>
+                                    <p>Q4 2026</p>
+                                </div>
+                                <div class="cta-step-box">
+                                    <div class="step-icon-circle"><i class="fa-solid fa-circle-play"></i></div>
+                                    <h4>Operação Ativa</h4>
+                                    <p>Q1 2027</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-card-box">
+                                <span>Contate a equipe de relações com investidores:</span>
+                                <strong>contato@rotaverdeparana.com.br | (41) 3300-8080</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide Navigation Controls -->
+                <div class="deck-controls">
+                    <button id="prev-slide" class="btn-ctrl"><i class="fa-solid fa-chevron-left"></i></button>
+                    <span class="slide-counter">Slide <strong id="current-slide-num">1</strong> de <span id="total-slides-num">8</span></span>
+                    <button id="next-slide" class="btn-ctrl"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                <div class="progress-bar-container">
+                    <div id="deck-progress-bar" class="deck-progress-bar" style="width: 12.5%;"></div>
+                </div>
+            </div>
+
+            <!-- Toggle Speaker Notes Panel -->
+            <div class="speaker-notes-panel">
+                <button id="toggle-notes" class="btn-toggle-notes">
+                    <i class="fa-regular fa-comment-dots"></i> Notas do Apresentador (Speaker Notes)
+                </button>
+                <div id="notes-content" class="notes-content">
+                    Apresentando a capa...
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 2: INTERACTIVE FINANCIAL SIMULATOR -->
+        <section id="tab-simulator" class="tab-pane">
+            <div class="simulator-layout">
+                <!-- Controls Panel (Left) -->
+                <div class="simulator-controls bg-dark-glass">
+                    <h3 class="panel-title"><i class="fa-solid fa-sliders"></i> Ajustar Variáveis</h3>
+                    
+                    <div class="control-group">
+                        <div class="control-header">
+                            <label for="sim-stations">Número de Eletropostos</label>
+                            <span class="control-val"><span id="val-stations">80</span> un</span>
+                        </div>
+                        <input type="range" id="sim-stations" min="10" max="200" step="5" value="80">
+                        <small class="help-text">CAPEX proporcional de R$ 50k por ponto.</small>
+                    </div>
+
+                    <div class="control-group">
+                        <div class="control-header">
+                            <label for="sim-hours">Horas de Uso Diário por Ponto</label>
+                            <span class="control-val"><span id="val-hours">3.0</span> h</span>
+                        </div>
+                        <input type="range" id="sim-hours" min="0.5" max="12" step="0.5" value="3.0">
+                        <small class="help-text">Média diária de tempo ativo de recarga rápida DC.</small>
+                    </div>
+
+                    <div class="control-group">
+                        <div class="control-header">
+                            <label for="sim-sale-price">Preço de Venda do kWh</label>
+                            <span class="control-val">R$ <span id="val-sale-price">1.99</span></span>
+                        </div>
+                        <input type="range" id="sim-sale-price" min="1.00" max="3.00" step="0.05" value="1.99">
+                        <small class="help-text">Valor tarifado ao cliente final no app.</small>
+                    </div>
+
+                    <div class="control-group">
+                        <div class="control-header">
+                            <label for="sim-energy-cost">Custo de Energia (kWh)</label>
+                            <span class="control-val">R$ <span id="val-energy-cost">0.42</span></span>
+                        </div>
+                        <input type="range" id="sim-energy-cost" min="0.20" max="1.00" step="0.02" value="0.42">
+                        <small class="help-text">Custo de aquisição junto à Copel/GD.</small>
+                    </div>
+
+                    <div class="control-group">
+                        <div class="control-header">
+                            <label for="sim-opex-rate">Custo Operacional (OPEX %)</label>
+                            <span class="control-val"><span id="val-opex-rate">12</span> %</span>
+                        </div>
+                        <input type="range" id="sim-opex-rate" min="5" max="25" step="1" value="12">
+                        <small class="help-text">% do faturamento bruto consumido pelo sistema/gestão.</small>
+                    </div>
+
+                    <div class="control-actions">
+                        <button id="reset-sim" class="btn-secondary">Restaurar Padrão do Projeto</button>
+                    </div>
+                </div>
+
+                <!-- Outputs Panel (Right) -->
+                <div class="simulator-results">
+                    <div class="results-grid">
+                        <div class="result-card highlight">
+                            <div class="card-icon"><i class="fa-solid fa-coins"></i></div>
+                            <div class="card-data">
+                                <span class="result-lbl">Investimento Requerido (CAPEX)</span>
+                                <strong id="res-capex" class="result-val">R$ 4.000.000,00</strong>
+                            </div>
+                        </div>
+                        <div class="result-card">
+                            <div class="card-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+                            <div class="card-data">
+                                <span class="result-lbl">Receita Bruta Anual (Estabilizada)</span>
+                                <strong id="res-revenue" class="result-val">R$ 6.972.960,00</strong>
+                            </div>
+                        </div>
+                        <div class="result-card highlight-green">
+                            <div class="card-icon"><i class="fa-solid fa-circle-dollar-to-slot"></i></div>
+                            <div class="card-data">
+                                <span class="result-lbl">EBITDA Anual (Estabilizado)</span>
+                                <strong id="res-ebitda" class="result-val">R$ 4.664.524,80</strong>
+                            </div>
+                        </div>
+                        <div class="result-card">
+                            <div class="card-icon"><i class="fa-solid fa-percent"></i></div>
+                            <div class="card-data">
+                                <span class="result-lbl">Margem EBITDA Líquida</span>
+                                <strong id="res-margin" class="result-val">66,9%</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Live Chart/Visualisation -->
+                    <div class="simulator-chart-card bg-dark-glass">
+                        <div class="chart-header">
+                            <h3 class="panel-title"><i class="fa-solid fa-chart-bar"></i> EBITDA Mensal da Rede (Ano 1)</h3>
+                            <span class="payback-badge">Payback: <strong id="res-payback">10.3 meses</strong></span>
+                        </div>
+                        <div class="chart-viewport" id="chart-viewport">
+                            <!-- Custom CSS-based bar chart generated dynamically by JS -->
+                        </div>
+                        <div class="chart-x-labels">
+                            <span>Mês 1 (Obras)</span>
+                            <span>Mês 3</span>
+                            <span>Mês 5</span>
+                            <span>Mês 7</span>
+                            <span>Mês 9</span>
+                            <span>Mês 11</span>
+                            <span>Mês 12</span>
+                        </div>
+                    </div>
+
+                    <!-- Tabular monthly review -->
+                    <div class="monthly-review bg-dark-glass">
+                        <h3 class="panel-title"><i class="fa-solid fa-table"></i> Detalhamento Mensal do Fluxo de Caixa (Ano 1)</h3>
+                        <div class="table-scroll">
+                            <table class="data-table" id="simulation-table">
+                                <thead>
+                                    <tr>
+                                        <th>Mês</th>
+                                        <th>Estações</th>
+                                        <th>Faturamento</th>
+                                        <th>Custo Energia</th>
+                                        <th>OPEX</th>
+                                        <th>EBITDA Mês</th>
+                                        <th>CAPEX</th>
+                                        <th>F.C. Líquido</th>
+                                        <th>Acumulado</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Populated dynamically by JS -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 3: DOCUMENTS & TEXTS -->
+        <section id="tab-documents" class="tab-pane">
+            <div class="documents-layout">
+                <div class="doc-tabs-left bg-dark-glass">
+                    <button class="doc-tab-btn active" data-doc="teaser">
+                        <i class="fa-solid fa-file-invoice"></i> Executive Teaser (One-Pager)
+                    </button>
+                    <button class="doc-tab-btn" data-doc="mou">
+                        <i class="fa-solid fa-file-contract"></i> Draft do MoU (Farmácias)
+                    </button>
+                </div>
+                <div class="doc-content-right bg-dark-glass">
+                    <!-- Teaser Document -->
+                    <div id="doc-view-teaser" class="doc-view active">
+                        <div class="doc-header-action">
+                            <h2>Executive Teaser: Rota Verde Paraná</h2>
+                            <button class="btn-copy" onclick="copyDocument('teaser-text')">
+                                <i class="fa-regular fa-copy"></i> Copiar Texto
+                            </button>
+                        </div>
+                        <div class="doc-markdown-body" id="teaser-text">
+                            <h3>Oportunidade de Investimento em Infraestrutura de Recarga Rápida de Veículos Elétricos</h3>
+                            <hr>
+                            <h4>1. Resumo Executivo</h4>
+                            <p>A <strong>Rota Verde Paraná</strong> é uma rede planejada de <strong>80 eletropostos rápidos (40 kW DC)</strong> estrategicamente distribuídos no Estado do Paraná. O projeto resolve a principal barreira de adoção de veículos elétricos (VEs) no estado — a escassez de recarga rápida e segura —, utilizando uma tese imobiliária única: instalação no estacionamento de redes de farmácias com operação 24/7.</p>
+                            
+                            <h4>2. Destaques da Oportunidade</h4>
+                            <ul>
+                                <li><strong>Margem EBITDA Excepcional:</strong> Margem de 66.9% no unit economics (Preço de venda de R$ 1,99/kWh vs. custo de energia de R$ 0,42/kWh e OPEX de 12%).</li>
+                                <li><strong>Parcerias Imobiliárias Premium:</strong> Acordos preliminares em fase de MoU com grandes redes farmacêuticas para ocupação de vagas sem custo de aquisição de terreno.</li>
+                                <li><strong>Equipamento de Alta Performance:</strong> Carregadores rápidos de 40 kW DC que oferecem recarga em tempo compatível com a permanência na loja (30-40 min), sem necessidade de investimentos caros em subestações de alta tensão.</li>
+                                <li><strong>Payback Acelerado:</strong> Investimento amortizado em 10 meses no cenário base de utilização (3 horas de recarga por dia por ponto).</li>
+                            </ul>
+
+                            <h4>3. Necessidade de Capital (CAPEX R$ 4,0M)</h4>
+                            <p>O capital de R$ 4.000.000 será alocado integralmente em ativos tangíveis e engenharia:</p>
+                            <ul>
+                                <li><strong>Equipamentos (74%):</strong> R$ 2.960.000 para a compra de 80 carregadores rápidos de 40 kW DC homologados.</li>
+                                <li><strong>Instalações e Obras Elétricas (24%):</strong> R$ 960.000 para adequação de cabines elétricas, cabeamento e sinalização das vagas.</li>
+                                <li><strong>Projetos e Licenciamento (2%):</strong> R$ 80.000 para projetos de engenharia civil/elétrica e homologação junto à Copel.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- MoU Document -->
+                    <div id="doc-view-mou" class="doc-view">
+                        <div class="doc-header-action">
+                            <h2>Draft do Memorando de Entendimento (MoU)</h2>
+                            <button class="btn-copy" onclick="copyDocument('mou-text')">
+                                <i class="fa-regular fa-copy"></i> Copiar Texto
+                            </button>
+                        </div>
+                        <div class="doc-markdown-body" id="mou-text">
+                            <h3>MEMORANDO DE ENTENDIMENTO (MoU)</h3>
+                            <p><strong>Parceria Estratégica para Implantação de Infraestrutura de Recarga de Veículos Elétricos</strong></p>
+                            <hr>
+                            <p>De um lado, <strong>[NOME DA REDE DE FARMÁCIAS]</strong>, doravante denominada apenas <strong>"PARCEIRA"</strong>.</p>
+                            <p>E de outro lado, <strong>ROTA VERDE PARANÁ SPE LTDA</strong>, doravante denominada apenas <strong>"DEVELOPER"</strong>.</p>
+                            
+                            <h4>Premissas do Acordo:</h4>
+                            <p><strong>1. Objeto:</strong> O objeto consiste na cooperação mútua para instalação de até 80 carregadores rápidos de 40 kW DC no estacionamento de lojas da PARCEIRA no Paraná.</p>
+                            <p><strong>2. Obrigações do DEVELOPER:</strong> Compra dos equipamentos (CAPEX), execução da instalação elétrica, homologação na concessionária, gestão operacional por aplicativo e custeio integral do consumo de energia elétrica (via submedição).</p>
+                            <p><strong>3. Obrigações da PARCEIRA:</strong> Cessão gratuita e exclusiva de 1 a 2 vagas de estacionamento por loja e liberação de acesso às equipes para instalação e manutenção.</p>
+                            <p><strong>4. Modelo de Negócio:</strong> Operação Win-Win. A PARCEIRA atrai clientes com alto poder aquisitivo e eleva o faturamento interno (cross-selling). O DEVELOPER cobra diretamente do usuário final pelo uso da energia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <p>&copy; 2026 Rota Verde Paraná. Desenvolvido para alinhamento interno e captação de investimentos.</p>
+        <div class="footer-meta">SPE Rota Verde Paraná S/A.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
